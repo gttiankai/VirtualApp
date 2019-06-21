@@ -21,7 +21,7 @@ LOCAL_SRC_FILES := Jni/VAJni.cpp \
                    Substrate/SubstrateHook.cpp \
                    Substrate/SubstratePosixMemory.cpp \
 
-LOCAL_LDLIBS := -llog -latomic
+LOCAL_LDLIBS := -llog
 LOCAL_STATIC_LIBRARIES := fb
 
 include $(BUILD_SHARED_LIBRARY)
